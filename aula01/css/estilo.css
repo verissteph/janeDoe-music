@@ -152,9 +152,9 @@ footer p {
 }
 
 .about {
- margin-top: 50px;
- text-align: center;
- margin-bottom: 25px;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .card__group {
@@ -165,12 +165,12 @@ footer p {
 }
 
 .card {
-width: 19%;
-border-radius: 8px;
-background-color: #e5e5e5;
-background-image: linear-gradient(to top, transparent, gray);
-transition-duration: .9s;
-margin:10px 20px 0px;
+  width: 19%;
+  border-radius: 8px;
+  background-color: #e5e5e5;
+  background-image: linear-gradient(to top, transparent, gray);
+  transition-duration: .9s;
+  margin: 10px 20px 0px;
 }
 
 .card__header {
@@ -218,63 +218,97 @@ margin:10px 20px 0px;
 }
 
 .jane {
-margin: 20px 0;
-width: 100%;
-height: 400px;
-display: flex;
-justify-content: center;
-align-items: center;
+  margin: 20px 0;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jane img {
   width: 41%;
   object-fit: cover;
 }
+
 /* musica */
+.music{
+   background-color: #f8f9fa;
+}
 .music__main {
-  background-color: #f8f9fa;
+ 
   width: 100%;
   margin-top: 117px;
   display: flex;
 
 }
 
-.music__main h2{
+.music__main h2 {
   width: 80%;
   margin: 15px 0 70px 0;
   text-align: center;
 }
 
-.video{
-width: 80%;
+.box__music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* background-color: #495057; */
+  border-radius: 5%;
+  /* margin-bottom: 15px; */
+}
+
+.video {
+width: 50%;
 display: flex;
 flex-direction: column;
+margin-left: 40px;
+
 }
 
-.video iframe{
- margin: 25px 5px;
+.video iframe {
+  margin: 25px 5px;
 }
 
-.listas{
+.listas {
 display: flex;
-justify-content: center;
+/* justify-content: space-around; */
 flex-direction: column;
+align-items: center;
+width: 50%;
+margin-left: 16%;
+margin-bottom: 15%;
 
 }
 
-.listas ul{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.listas ul {
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: space-between;
 }
 
-.listas ul span{
-  display: flex;
-  align-items: center;
-  margin: 5px 3px;
+.listas ul span {
+margin: 20px 6px;
+display: flex;
+align-items: center;
+/* margin: 20px 6px; */
+/* padding: 20px; */
+
 }
 
-.listas ul span li{
+.listas ul span li {
   list-style: none;
   margin-left: 8px;
+  font-weight: bold;
 }
+
+.listas__box{
+      margin-bottom: 12vh;
+}
+.lista__paragraph{
+  line-height: 2.5em;
+}
+
+/* Contact */
