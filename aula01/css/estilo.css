@@ -130,7 +130,7 @@ main {
 
 footer {
   width: 100%;
-  background-color: #f5f6f7;
+  background-color: #ced4da;
   margin-top: 30px;
   height: 5vh;
   display: flex;
@@ -186,10 +186,9 @@ margin:10px 20px 0px;
 
 .card__header img {
   object-fit: cover;
-  height: 16vh;
+  height: 17vh;
   width: inherit;
-  border-radius: 8px 8px;
-
+  border-radius: 8px 8px 0px 0px;
 }
 
 .card__body {
@@ -230,4 +229,52 @@ align-items: center;
 .jane img {
   width: 41%;
   object-fit: cover;
+}
+/* musica */
+.music__main {
+  background-color: #f8f9fa;
+  width: 100%;
+  margin-top: 117px;
+  display: flex;
+
+}
+
+.music__main h2{
+  width: 80%;
+  margin: 15px 0 70px 0;
+  text-align: center;
+}
+
+.video{
+width: 80%;
+display: flex;
+flex-direction: column;
+}
+
+.video iframe{
+ margin: 25px 5px;
+}
+
+.listas{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.listas ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listas ul span{
+  display: flex;
+  align-items: center;
+  margin: 5px 3px;
+}
+
+.listas ul span li{
+  list-style: none;
+  margin-left: 8px;
 }
